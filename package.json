@@ -1,0 +1,14 @@
+{
+  "name": "aghpractical",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watch ExerciseOne"
+  },
+  "author": "steve barton <bevets87@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^24.8.0"
+  }
+}
