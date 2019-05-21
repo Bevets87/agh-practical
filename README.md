@@ -1,6 +1,11 @@
 # AGH Practical
 
 ## Getting Started
+Install Express using [`npm`](https://www.npmjs.com/):
+
+```bash
+npm install --save-dev express
+``` 
 
 Install Jest using [`npm`](https://www.npmjs.com/):
 
@@ -8,13 +13,14 @@ Install Jest using [`npm`](https://www.npmjs.com/):
 npm install --save-dev jest
 ```
 
-run `npm run test` to test Exercise One and right click here [html]('./exercise_two/index.html) to test Exercise Two
-
 ## Available Scripts
-
-### `npm test`
+### `npm run exercise:one`
 
 Launches Exercise One tests in the interactive watch mode. [Jest](https://github.com/facebook/jest) must be installed.
+
+### `npm run exercise:two`
+
+Launches a development server at http://localhost:3000/ to test Exercise Two 
 
 ## Exercise One 
 Write a function that takes a positive integer of at least three digits, and return the next largest integer that is formed by the same digits, if no larger integer can be formed (i.e. current input integer is max number) then return `false`. 
